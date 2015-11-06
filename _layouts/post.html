@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <article>
+        <header>
+          <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+            <h1 class="entry-title">
+              <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </h1>
+        </header>
+        {{ page.content }}
+        <footer>
+          <div class="navigation clearfix">
+          {% if page.previous.url %}
+            <a class="pull-left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          {% endif %}
+          {% if page.next.url %}
+            <a class="pull-right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+          {% endif %}
+          </div>
+          <h3>Related Posts</h3>
+          <table class="post-list">
+          {% for post in site.related_posts limit:3 %}
+            <tr>
+              <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
+                <td>{{ post.date | date_to_string }}</td>
+            </tr>
+          {% endfor %}
+          </table>
+        </footer>
+      </article>
+  </div>
+</div>
