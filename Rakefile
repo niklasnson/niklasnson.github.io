@@ -30,7 +30,7 @@ task :new do
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: #{title}"
-    post.puts "categories: [programming, network]"
+    post.puts "categories: [programming, network, Tips and Tricks]"
     post.puts "tags: [c++, ruby, python, git]"
     post.puts "---"
     post.puts ""
