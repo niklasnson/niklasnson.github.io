@@ -5,9 +5,12 @@ full_posts: 5
 
 <div class="row">
   <div class="col-xs-12 col-md-8 col-md-offset-2">
+    <img src="http://i.imgur.com/XIU3xqSb.jpg" class="img-circle portrait">    
+    
     {% for post in site.posts %}
       {% if forloop.index < page.full_posts %}
-      <article>
+      
+      <article class="post">
         <header>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <h1 class="entry-title">
@@ -16,6 +19,7 @@ full_posts: 5
         </header>
         {{ post.content }}
       </article>
+    
       {% else %}
         {% if forloop.index == page.full_posts %}
         <h3>Older Posts</h3>
@@ -28,5 +32,6 @@ full_posts: 5
       {% endif %}        
     {% endfor %}
     </table>
+    
   </div>
 </div>

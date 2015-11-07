@@ -28,17 +28,25 @@ $navbar-height: 60px;
 table.post-list {
   width: 100%;
 }
+// portrait
+.portrait{
+  display: block;
+  margin: 0 auto
+}
+
+// labels
+$label-default-bg: $remeber;
+$label-primary-bg: $seeme;
 
 // article 
-article {
-  border-top: dotted 1px #ddd;
+article.post {
+  border-bottom: dotted 1px #ddd;
   padding-top: 2em;
   padding-bottom: 1em;
 }
-article:first-child, article:last-child {
-  border-top: none;
+article.post:last-of-type {
+  border-bottom: none !important;
 }
-
 
 article header{
   span.post-meta {

@@ -13,6 +13,12 @@ layout: default
         {{ page.content }}
         <footer>
           <div class="navigation clearfix">
+            <div class="panel panel-default">
+              <div class="panel-heading">Have feedback on this post? Let <a href="https://twitter.com/intent/tweet?text=@niklasnson%20&related=blog&url=http://niklasnson.com{{ page.url }}">@niklasnson</a> know on Twitter.</div>
+              <div class="panel-body">
+                or send mail to niklasnson@me.com
+              </div>
+            </div>
           {% if page.previous.url %}
             <a class="pull-left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
           {% endif %}
