@@ -42,7 +42,8 @@ int main()
 }
 {% endhighlight %}
 
-But we could make a more compact code using the (conditional) ternary operator.
+But we could make a more compact code using the (conditional) ternary operator. The basic operations of this is:
+(condition) ? (if_true) : (if_false)
 
 {% highlight cpp %}
 #include <iostream>
