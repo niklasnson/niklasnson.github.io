@@ -5,32 +5,32 @@ full_posts: 5
 
 <div class="row">
   <div class="col-xs-12 col-md-8 col-md-offset-2">
-    <img src="http://i.imgur.com/LyOWpN5b.jpg" class="img-circle portrait">    
+    <img src="https://i.imgur.com/G3Y1u6B.jpg" class="img-circle portrait">
 
     {% for post in site.posts %}
-      {% if forloop.index < page.full_posts %}
+    {% if forloop.index < page.full_posts %}
 
-      <article class="post">
-        <header>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h1 class="entry-title">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h1>
-        </header>
-        {{ post.content }}
-      </article>
+    <article class="post">
+      <header>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h1 class="entry-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+      </header>
+      {{ post.content }}
+    </article>
 
-      {% else %}
-        {% if forloop.index == page.full_posts %}
-        <h3>Older Posts</h3>
-        <table class='post-list'>
-        {% endif %}
-        <tr>
-          <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
-          <td>{{ post.date | date_to_string }}</td>
-        </tr>
+    {% else %}
+    {% if forloop.index == page.full_posts %}
+    <h3>Older Posts</h3>
+    <table class='post-list'>
       {% endif %}
-    {% endfor %}
+      <tr>
+        <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
+        <td>{{ post.date | date_to_string }}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
     </table>
 
   </div>
