@@ -1,0 +1,17 @@
+section {
+  border-top: 4px solid #1a1a1a;
+  margin-bottom: 3.5em;
+  padding-top: 1.75em;
+  h2 {
+    font-size: 1rem;
+    letter-spacing: 0.046875em;
+    text-transform: uppercase;
+  }
+  ul li a {
+    color: #007acc;
+    text-decoration: none !important;
+  }
+  ul li a:hover {
+    color: #686868;
+  }
+}

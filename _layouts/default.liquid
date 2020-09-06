@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.liquid %}
+
+<body>
+
+  {% include header.liquid %}
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-8">
+        {{ content }}
+      </div>
+      <div class="col-4">
+        <section>
+          <h2>CATEGORIES</h2>
+          <ul>
+            {% assign categories = site.categories | sort %}
+            {% for category in categories %}
+              <li>
+              <a href="{{ site.baseurl }}/category/{{ category[0] | slugify | uri_escape }}">{{ category[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section>
+          <h2>RECENT POSTS</h2>
+          <ul>
+            {% for post in site.posts limit: 5 %}
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section>
+          <h2>TAGS</h2>
+          {% assign tags = site.tags | sort %}
+          {% for tag in tags %}
+            <a href="/tags/{{ tag[0] | slugify | uri_escape }}"  class="btn btn-outline-primary my-1 mx-1">{{ tag[0] }}</a>
+          {% endfor %}
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  {% include footer.liquid %}
+
+</body>
+
+</html>

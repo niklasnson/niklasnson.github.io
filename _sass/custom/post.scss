@@ -1,0 +1,107 @@
+article.post {
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    h1 a {
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+    h1 a:hover {
+      color: #007acc;
+    }
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  nav {
+    padding: 2.25rem 0;
+    .linear {
+      font-size: 1.25rem;
+      line-height: 1.25;
+      display: block;
+      font-weight: 700;
+      padding: 0.25rem 0;
+      text-decoration: none;
+      color: #000;
+      header {
+        font-size: 0.25rem;
+        text-align: left;
+        letter-spacing: 0.0625rem;
+        line-height: 1.3125rem;
+        margin-bottom: 0.4375rem;
+        text-transform: uppercase;
+      }
+      &:hover {
+        color: #999;
+      }
+    }
+  }
+}
+
+.post-meta {
+  margin-top: 0.95rem;
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.entry-title {
+  font-size: 2.5rem;
+  line-height: 1.225;
+  margin-bottom: 1.05em;
+}
+
+.post header h2 {
+  padding: 0 0;
+}
+
+.post header h2 a {
+  font-size: 2.5rem;
+  line-height: 1.225;
+  margin-bottom: 1.05em;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.post header h2 a:hover {
+  color: #007acc;
+}
+
+.post-content {
+  margin-top: 2rem;
+}
+
+.post h3 {
+  font-size: 1.2rem !important;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.post h4 {
+  font-size: 1rem !important;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.post .panel {
+  margin: 25px 0;
+  padding: 25px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.85rem;
+}
+
+.post-category a {
+  font-size: 0.75rem;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.post-category a:hover {
+  color: #686868;
+  text-decoration: none;
+}

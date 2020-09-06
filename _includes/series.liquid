@@ -1,0 +1,23 @@
+
+{% for post in site.categories[category] %}
+	<article class="post {{ post.class }}">
+		<header>
+			<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+		</header>
+		<div class="row">
+			<div class="col-3">
+				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				<div class="post-category mt-2">
+					{% for category in post.categories %}
+					<a rel="category tag" href="{{ site.baseurl }}/category/{{ category | slugify }}">
+						{{ category }}</a>{% unless forloop.last %}{% endunless %}
+					{% endfor %}
+					{% if page.categories == empty %} Uncategorized {% endif %}
+				</div>
+			</div>
+			<div class="col-9">
+				{{ post.content }}
+			</div>
+		</div>
+	</article>
+{% endfor %}

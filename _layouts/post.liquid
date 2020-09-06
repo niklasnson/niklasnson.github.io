@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="post">
+  <header><h1>{{ page.title }}</h1></header>
+  <div class="row">
+    <div class="col-3">
+      <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+      <div class="post-category mt-2">
+        {% for category in page.categories %}
+        <a rel="category tag" href="{{ site.baseurl }}/category/{{ category | slugify }}">
+          {{ category }}</a>{% unless forloop.last %}{% endunless %}
+        {% endfor %}
+        {% if page.categories == empty %} Uncategorized {% endif %}
+      </div>    
+    </div>
+    <div class="col-9">
+    {{ page.content }}
+    </div>
+  </div>
+  <nav>
+    {% if page.previous %}
+      <a class="linear" rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}">
+        <header>Previous post</header>
+        {{ page.previous.title }}
+      </a>
+    {% endif %}
+    {% if page.next %}
+      <a class="linear" rel="prev" href="{{ site.baseurl }}{{ page.next.url }}">
+        <header>Next post</header>
+        {{ page.next.title }}
+      </a>
+    {% endif %}
+  </nav>
+  <footer>
+    <h6>Related posts:</h6>
+    <table class="table post-list">
+      {% for post in site.related_posts limit:5 %}
+      <tr>
+        <td><a href='{{ post.url }}'>{{ post.title }}</a></td>
+        <td>{{ post.date | date_to_string }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </footer>
+</article>
