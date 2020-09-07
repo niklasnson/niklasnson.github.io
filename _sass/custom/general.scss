@@ -1,3 +1,36 @@
 .pull-right {
   float: right;
 }
+
+ul.social-media {
+  list-style: none;
+  padding: 0;
+  li {
+    padding-top: 0.75rem;
+    div.icon {
+      float: left;
+      padding: 0.5em;
+      margin-right: 1em;
+      border-radius: 0.125rem;
+      background-color: #000;
+      width: 54px;
+      height: 54px;
+      display: inline-block;
+      svg {
+        fill: #fff;
+        height: 2em;
+        width: 2em;
+        line-height: 1;
+        vertical-align: middle;
+        width: 36px;
+        height: 36px;
+      }
+    }
+    div.text {
+      .name {
+        display: inline-block;
+        font-weight: 700;
+      }
+    }
+  }
+}
