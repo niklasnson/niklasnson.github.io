@@ -31,9 +31,11 @@ I love open source and hope to continue to share and contribute to an world with
   <li><b>Rub me shiny</b> - online shop and information about the latex clothing and accessories company that i run together with Sia. Will interact with PayPal and Swish and use the same shopping system as developed for Kroppsfabriken. A full version of the site will soon be online.
   <br>Live site: <a href="https://www.rubmeshiny.com">Rub me shiny</a></li>
 </ul>
+<img src="https://i.imgur.com/ByOaWddm.jpg" class="img-thumbnail">
 <h2>Retro computing</h2>
 My first computer was a Commodore 64, but I focus my retro computing on Amiga. It was on this platform I explored programming and running a BBS, i currently own a Amiga 500 and a Amiga 600. Currently i have no more room - but i plan in the future to extend the collection with a Amiga 1200 and a Amiga 4000. A dream is to open a BBS once again but i have no backup of the old BBS.  
 
+<img src="https://i.imgur.com/4RdtgAXm.jpg" class="img-thumbnail">
 <h2>Amiga development</h2>
 I do some programming on the Amiga, mostly in C and Im trying to be better at assembler programming on the Amiga and 68k in general.
 
