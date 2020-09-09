@@ -34,7 +34,7 @@ I love open source and hope to continue to share and contribute to an world with
 <h2>Retro computing</h2>
 My first computer was a Commodore 64, but I focus my retro computing on Amiga. It was on this platform I explored programming and running a BBS, i currently own a Amiga 500 and a Amiga 600. Currently i have no more room - but i plan in the future to extend the collection with a Amiga 1200 and a Amiga 4000. A dream is to open a BBS once again but i have no backup of the old BBS.  
 
-
+<img src="https://i.imgur.com/fTpFd8tm.jpg" class="img-thumbnail"> <img src="https://i.imgur.com/h5vISR1m.jpg" class="img-thumbnail">
 <h2>Fetish club organizer</h2>
 We want to give our people the opportunity to put on their finest outfits and dance loose to electronic music. The goal is to create the club and parties that we ourselves have been missing. A major driver is our desire to be a part of the development of the Swedish fetish scene, and to do so through collaboration with serious and established actors.
 
