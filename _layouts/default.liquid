@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 {% include head.liquid %}
-
 <body>
-
   {% include header.liquid %}
-
   <div class="container">
     <div class="row mt-5">
-      <div class="col-8">
+      <div class="col-8 col-sm-12">
         {{ content }}
       </div>
-      <div class="col-4">
+      <div class="col-4 col-sm-12">
         <section>
           <h2>CATEGORIES</h2>
           <ul>
@@ -40,13 +36,9 @@
             <a href="/tags/{{ tag[0] | slugify | uri_escape }}"  class="btn btn-outline-primary my-1 mx-1">{{ tag[0] }}</a>
           {% endfor %}
         </section>
-
       </div>
     </div>
   </div>
-
   {% include footer.liquid %}
-
 </body>
-
 </html>
