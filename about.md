@@ -5,7 +5,7 @@ title: "About Me"
 ---
 After a long career in wholesale i started as a student at Linköpings Universitet 2015, and took my Degree of Bachelor of Programming in 2018. Im now working as a developer for Ericsson in Linköping. 
 
-<img src="https://i.imgur.com/QfvTPTcm.jpg" class="img-thumbnail">
+<img src="https://i.imgur.com/QfvTPTcm.jpg" class="img-fluid img-thumbnail">
 
 <h2>Development interests</h2>
 At work i do most of my programming in C++ but on my spare time i have interest in a lot of languages. 
@@ -20,7 +20,7 @@ At work i do most of my programming in C++ but on my spare time i have interest 
 </ul>
 I like stuff for the internet, so communities and forums are something I often work with. The idea of building something that unites people is a momentum and something that keeps occupying my spare time. I enjoy working with the Ruby On Rails framework and have used it on many projects. Some of them now open sourced on my GitHub account.
 
-<img src="https://i.imgur.com/mCEntVzm.jpg" class="img-thumbnail"> <img src="https://i.imgur.com/WqVoegcm.jpg" class="img-thumbnail">
+<img src="https://i.imgur.com/mCEntVzm.jpg" class="img-fluid img-thumbnail"> <img src="https://i.imgur.com/WqVoegcm.jpg" class="img-fluid img-thumbnail">
 <h2>Weights and gym life</h2>
 ddssd
 
@@ -34,11 +34,11 @@ I love open source and hope to continue to share and contribute to an world with
   <br>Live site: <a href="https://www.rubmeshiny.com">Rub me shiny</a></li>
   <li><b>M68k-Assembly on the Amiga</b> - I have decided to learn Assembler programming on the M68k and specifically for the Amiga. While I am learning, I write down what I am learning, this I publish on GitHub. Since I write on my Amiga, the updates are not completely frequent on GitHub, but I hope that it will result in a good guide for others who are interested in learning.</li>
 </ul>
-<img src="https://i.imgur.com/ByOaWddm.jpg" class="img-thumbnail"> <img src="https://i.imgur.com/4RdtgAXm.jpg" class="img-thumbnail">
+<img src="https://i.imgur.com/ByOaWddm.jpg" class="img-fluid img-thumbnail"> <img src="https://i.imgur.com/4RdtgAXm.jpg" class="img-fluid img-thumbnail">
 <h2>Retro computing</h2>
 My first computer was a Commodore 64, but I focus my retro computing on Amiga. It was on this platform I explored programming and running a BBS, i currently own a Amiga 500 and a Amiga 600. Currently i have no more room - but i plan in the future to extend the collection with a Amiga 1200 and a Amiga 4000. A dream is to open a BBS once again but i have no backup of the old BBS.  
 
-<img src="https://i.imgur.com/fTpFd8tm.jpg" class="img-thumbnail"> <img src="https://i.imgur.com/h5vISR1m.jpg" class="img-thumbnail">
+<img src="https://i.imgur.com/fTpFd8tm.jpg" class="img-fluid img-thumbnail"> <img src="https://i.imgur.com/h5vISR1m.jpg" class="img-fluid img-thumbnail">
 <h2>Fetish club organizer</h2>
 We want to give our people the opportunity to put on their finest outfits and dance loose to electronic music. The goal is to create the club and parties that we ourselves have been missing. A major driver is our desire to be a part of the development of the Swedish fetish scene, and to do so through collaboration with serious and established actors.
 
