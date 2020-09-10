@@ -20,6 +20,10 @@ At work i do most of my programming in C++ but on my spare time i have interest 
 </ul>
 I like stuff for the internet, so communities and forums are something I often work with. The idea of building something that unites people is a momentum and something that keeps occupying my spare time. I enjoy working with the Ruby On Rails framework and have used it on many projects. Some of them now open sourced on my GitHub account.
 
+<img src="https://i.imgur.com/mCEntVzm.jpg" class="img-thumbnail"> <img src="https://i.imgur.com/WqVoegcm.jpg" class="img-thumbnail">
+<h2>Weights and gym life</h2>
+ddssd
+
 <h2>Open source</h2>
 I love open source and hope to continue to share and contribute to an world with lots of open source projects. Some of my projects are open source and some of the dead ones i make open source and available from my github account.  
 
